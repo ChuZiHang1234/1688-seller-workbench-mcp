@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.env
+.DS_Store
+work1688-profile/
+work1688-output/
+screenshots/
+tmp/
+temp/

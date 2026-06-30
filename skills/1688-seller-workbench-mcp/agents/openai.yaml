@@ -1,0 +1,13 @@
+interface:
+  display_name: "1688 Seller Workbench MCP"
+  short_description: "Control the 1688 seller workbench through a local browser MCP."
+  default_prompt: "Use $1688-seller-workbench-mcp to open the 1688 seller workbench, check login, inspect the page, and help me operate it safely."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "work1688"
+      description: "Local stdio MCP server for 1688 seller workbench browser control."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,16 @@
+{
+  "name": "1688-seller-workbench-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Local MCP server for controlling the 1688 seller workbench through a persistent browser profile.",
+  "scripts": {
+    "mcp": "node src/mcp-server.js",
+    "check": "node --check src/mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "playwright-core": "^1.57.0",
+    "zod": "^3.25.76"
+  }
+}
